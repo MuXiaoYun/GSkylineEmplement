@@ -144,11 +144,11 @@ MDS 框架的关键贡献包括：
 
 - 查询 DSG（使用语句 `MATCH p=()-[:DOMINATES]->() RETURN p;`）：
 
-  <img src=".\pics\dsg.png" style="zoom: 50%;" />
+  <img src=".\pics\dsg.png" style="zoom: 45%;" />
 
 - 查询 MDG（使用语句 `MATCH p=()-[:MDG]->() RETURN p;`）:
 
-  <img src=".\pics\mdg.png" style="zoom: 50%;" />
+  <img src=".\pics\mdg.png" style="zoom: 40%;" />
 
 - 查询所有 G-Skyline 组（使用语句 `MATCH p=()-[:GSky]->() RETURN p;`）：
 
@@ -172,6 +172,6 @@ MDS 框架的关键贡献包括：
 
 ## 分工
 
-- 何沐：DSG 和 MDG 构建算法实现，报告撰写（对应算法分析和结果展示部分）
-- 张嘉诚：P_MDS 算法实现，报告撰写（对应算法分析和结果展示部分）
+- 何沐：DSG 和 MDG 构建算法实现，对应查询实现，报告撰写（对应算法分析和结果展示部分）
+- 张嘉诚：P_MDS 算法实现，对应查询实现，报告撰写（对应算法分析和结果展示部分）
 - 张飞鸿：数据结构和程序框架设计，可视化实现，报告撰写（相关工作部分）
