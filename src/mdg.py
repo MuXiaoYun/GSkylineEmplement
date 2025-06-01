@@ -1,6 +1,8 @@
 from nodegraph import *
 
 def mdg(P, l):
+    assert l >= 0, "l is negative"
+
     G = graph()
     B = []
     parents = {}
