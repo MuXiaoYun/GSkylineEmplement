@@ -6,4 +6,5 @@
   usr = "你的 neo4j 的实例用户名"
   pwd = "你的 neo4j 的实例密码"
   datapath = "./data/你的数据文件名"
+  importgskyline = True # True 代表你想查询和 G-skyline 组相关的结果
   ```
