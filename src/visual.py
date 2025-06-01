@@ -3,7 +3,7 @@ import config
 
 def visualize_graph(graph):
     # visualization using neo4j
-    driver = neo4j.GraphDatabase.driver("neo4j+ssc://fc86cbe5.databases.neo4j.io", auth=(config.usr, config.pwd))
+    driver = neo4j.GraphDatabase.driver(config.url, auth=(config.usr, config.pwd))
     with driver.session() as session:
         print("verify:", driver.verify_authentication())
         # Clear existing nodes
